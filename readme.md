@@ -1,8 +1,8 @@
-# Recommender Systems class
+# Projekt nr 1
 
-Department of Mathematics and Computer Science, Adam Mickiewicz University, 2021
+Projekt z przedmiotu "Systemy rekomendacyjne"
 
-Author: Piotr Zioło
+Autorzy: Piotr Zioło, Klaudia Kandulska
 
 ## Preparing your computer
 
@@ -95,37 +95,3 @@ Author: Piotr Zioło
 
 
 **In the case of any problems, consult your best friend - [StackOverflow](https://stackoverflow.com/)**.
-
-
-## Before every class
-
-Fetch the new code from this repository and merge it into your code.
-
-1. In Git Bash open your repository folder.
-
-
-2. Add the original repository as an upstream:
-
-		git remote add upstream git@github.com:PiotrZiolo/recommender-systems-class.git
-		
-		
-3. Fetch new changes from the original repository:
-
-		git fetch upstream
-		
-		
-4. Merge the changes into your local branch (if you don't mind having your commits and commits in the original repository mixed up) or rebase the changes into your local branch (if you want your commits to follow all commits in the original repository):
-
-		git merge upstream/master master
-		
-	or 
-	
-		git rebase upstream/master
-
-
-5. In the case of conflicts you can resolve them manually, but it's easier to use PyCharm, especially in Jupyter Notebooks where manual merging is extremely painful. PyCharm provides side-by-side view of changes and allows to accept one of the conflicted file versions in one click.
-
-
-
-
-
